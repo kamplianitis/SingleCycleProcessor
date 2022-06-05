@@ -1,0 +1,3 @@
+the array package is the package that we used in order to create the 32x32 matrix. Although it was not asked we
+thought that we should implement this as well
+ 

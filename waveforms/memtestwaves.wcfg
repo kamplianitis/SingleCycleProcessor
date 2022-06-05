@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/RAMTEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ramtest" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/ramtest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/inst_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/data_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/data_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/data_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/inst_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/data_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ramtest/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

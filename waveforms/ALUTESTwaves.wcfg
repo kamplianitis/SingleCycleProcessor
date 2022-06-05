@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/ALUTEST_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alutest" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/alutest/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/zeroout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zeroout</obj_property>
+      <obj_property name="ObjectShortName">zeroout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/outp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alutest/ovf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ovf</obj_property>
+      <obj_property name="ObjectShortName">ovf</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zeta/hopeitsfinal/PROCSCTEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="arraypackage" />
+            <top_module name="numeric_std" />
+            <top_module name="procsctest" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/procsctest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/inst" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      <obj_property name="label">Pc_Instruction[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/meminst" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">meminst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">meminst[31:0]</obj_property>
+      <obj_property name="label">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/pcsel" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pcsel</obj_property>
+      <obj_property name="ObjectShortName">pcsel</obj_property>
+      <obj_property name="label">PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/pclden" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pclden</obj_property>
+      <obj_property name="ObjectShortName">pclden</obj_property>
+      <obj_property name="label">PC_ldEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/rfwren" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rfwren</obj_property>
+      <obj_property name="ObjectShortName">rfwren</obj_property>
+      <obj_property name="label">RF_Write_Enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/dp/decstagepart/RFile/awr" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="label">RF_Address_Write</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/rfwren" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rfwren</obj_property>
+      <obj_property name="ObjectShortName">rfwren</obj_property>
+      <obj_property name="label">RF_Write_Enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/datasel" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">datasel</obj_property>
+      <obj_property name="ObjectShortName">datasel</obj_property>
+      <obj_property name="label">RF_Write_Data_Sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/func" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">func[3:0]</obj_property>
+      <obj_property name="label">ALU_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/aluzero" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">aluzero</obj_property>
+      <obj_property name="ObjectShortName">aluzero</obj_property>
+      <obj_property name="label">ALU_Zero_Signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/wen" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+      <obj_property name="label">MEM_Write_Enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/dp/decstagepart/RFile/regresults[3]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">regresults[3]</obj_property>
+      <obj_property name="label">R[3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/dp/decstagepart/RFile/regresults[5]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">regresults[5]</obj_property>
+      <obj_property name="label">R[5]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/dp/decstagepart/RFile/regresults[10]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">regresults[10]</obj_property>
+      <obj_property name="label">R[10]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/dp/decstagepart/RFile/regresults[16]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">regresults[16]</obj_property>
+      <obj_property name="label">R[16]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/memory/ram[259]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[259]</obj_property>
+      <obj_property name="ObjectShortName">ram[259]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/memory/ram[258]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[258]</obj_property>
+      <obj_property name="ObjectShortName">ram[258]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/memory/ram[257]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[257]</obj_property>
+      <obj_property name="ObjectShortName">ram[257]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procsctest/uut/memory/ram[256]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[256]</obj_property>
+      <obj_property name="ObjectShortName">ram[256]</obj_property>
+   </wvobject>
+</wave_config>
