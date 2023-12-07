@@ -20,4 +20,6 @@ also contained in order to provide an overall test of the whole system combined.
 
 The **waveform** folder contains .wcfg files, snapshots of the waveforms that each unit testing file provides.
 
-##CPU Specification
+### CPU Specification
+
+  #TODO TO BE IMPLEMENTED
